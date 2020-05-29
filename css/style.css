@@ -1,0 +1,184 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+
+/* HEADER */
+
+header p {
+	font-size: 12px;
+	color: #A0A09F;
+}
+
+.header_col1 img{
+	width: 300px;
+	height: 100px;
+}
+
+
+
+.header_col2 {
+	margin-top: 50px;
+}
+
+
+.header_col2 img {
+	width: 80px;
+}
+
+.header_col2 p {
+	display: inline-block;
+	width: 120px;
+	vertical-align: text-top;
+}
+
+
+.header_col3 img{
+	/*width: 350px;*/
+	height: 80px;
+}
+
+.contact{
+	background-color:rgba(43, 108, 163, 1);
+	width: 450px;
+	right: 0;
+	padding: 5px;
+	position: absolute;
+	border-radius:0 0 10px 10px;
+}
+
+.contact p,
+.contact img {
+	display: inline-block;
+}
+
+.contact p {
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+}
+
+.contact img {
+	height: 20px;
+}
+
+.header_col3 a p{
+	color: #103F54;
+	position: absolute;
+	font-weight: 600;
+	font-size: 20px;
+	top: 50%;
+	left: 30%;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+}
+
+/* NAVBAR */
+.navbar {
+	background: rgba(43, 108, 163, 1) url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/shiny1button_bg.png) center center repeat-x;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.navbar li {
+	padding: 0px 25px;
+}
+
+
+.button {
+	border: 1px solid transparent;
+	font-size: 16px;
+	padding: 5px 45px;
+	color: #fff!important;
+	height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    border-left: 1px solid transparent;
+    transition: background-color 0.4s ease 0s;
+}
+
+.button a {
+
+	padding: 0;
+}
+
+/* FOOTER */
+
+footer {
+	color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: rgba(43, 108, 163, 1);
+}
+
+footer img {
+	max-width: 150px;
+}
+
+footer a {
+	color: #fff;
+}
+
+
+/* home page */
+
+
+.carousel img {
+	height: 400px;
+}
+
+
+
+
+
+.section-3 a img {
+	border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.section-3 a p {
+	position: absolute;
+	top: 5%;
+	color: #fff;
+	background-color: rgba(100, 156, 211, 1);
+	width: 200px;
+	text-align: center;
+}
+
+.section-3_description {
+	color: #605E5E;
+}
+
+
+.section-3 a img:hover{
+	transition: 0.3s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 800px){
+	.section-3 a p {
+		width: 150px;
+		font-size: 12px;
+	}	
+}
+
+
+@media screen and (max-width: 600px) {
+	.carousel img {
+		height: 250px;
+	}
+	.section-2 img {
+		width: 100px;
+	}
+	.section-3 a p {
+		width: 100px;
+		font-size: 12px;
+	}	
+
+}
+
+
