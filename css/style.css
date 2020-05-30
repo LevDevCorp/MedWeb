@@ -87,6 +87,9 @@ header p {
 	padding: 0px 25px;
 }
 
+.navbar li:hover{
+	background-color: #ffffff90;
+}
 
 .button {
 	border: 1px solid transparent;
@@ -105,6 +108,11 @@ header p {
 .button a {
 
 	padding: 0;
+}
+
+
+.button:hover {
+
 }
 
 /* FOOTER */
@@ -158,6 +166,109 @@ footer a {
 	transition: 0.3s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+/* PRODUCTS */
+.products h4{
+	color: #605E5E;
+	font-weight: 800;
+	margin:0px 20px;
+	padding: 5px 0;
+	border-bottom: .2px solid #605E5E;
+	margin-top: 50px;
+}
+
+
+
+
+.products_header {
+	font-weight: 800;
+	color: #605E5E;
+	font-size: 18px;
+}
+
+.products img {
+	float: right;
+}
+
+.products  a {
+	position: absolute;
+	color: #fff;
+}
+
+.products .section1 a {
+		left: 35%;
+}
+
+.products .section2 a {
+		left:20%;
+}
+
+.products .section3 a {
+		left:45%;
+}
+
+
+
+    .pointer {
+      width: 200px;
+      height: 40px;
+      position: relative;
+      padding: 10px 0px;
+      position: relative;
+    }
+    .pointer:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid white;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+    .pointer:before {
+      content: "";
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+
+.pointer1 {
+    background: #76cc4b;	
+}
+
+.pointer1:before{
+    border-left: 20px solid #76cc4b;
+}
+  
+.pointer2 {
+	background:rgba(43, 108, 163, 1);
+}
+
+.pointer2:before {
+    border-left: 20px solid rgba(43, 108, 163, 1);	
+}
+
+
+.products .callisfree {
+	color:#555;
+	font-weight: 800;	
+	font-size: 18px;
+}
+
+
+.products_images_image1 {
+	position: absolute;
+	bottom: 0;
+}
+
 
 @media screen and (max-width: 800px){
 	.section-3 a p {
