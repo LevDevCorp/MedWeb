@@ -9,6 +9,10 @@ body {
 
 /* HEADER */
 
+.language_change {
+	position: absolute;
+}
+
 header p {
 	font-size: 12px;
 	color: #A0A09F;
