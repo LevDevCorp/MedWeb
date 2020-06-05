@@ -91,6 +91,10 @@ header p {
 	padding: 0px 25px;
 }
 
+.ge .navbar li {
+	padding: 0 20px;
+}
+
 .navbar li:hover{
 	background-color: #ffffff90;
 }
@@ -207,9 +211,16 @@ h4{
 .products .section2 a {
 		left:20%;
 }
+.ge .section2 a {
+		left:25%;
+}
 
 .products .section3 a {
 		left:45%;
+}
+
+.ge .section3 a {
+		left:40%;
 }
 
 
@@ -251,6 +262,16 @@ h4{
 .pointergreen a {
 		left: 35%;	
 }
+.ge .pointergreen a {
+		left: 15%;	
+}
+
+.ge h6 {
+	font-weight: 800;
+	color: #605E5E;
+}
+
+
 .pointerblue a {
 		left: 25%;	
 }
