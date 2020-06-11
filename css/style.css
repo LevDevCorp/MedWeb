@@ -405,13 +405,34 @@ h4{
 	font-weight: 800;
 }
 
+.article-1{
+	color: #605E5E;
+}
 
+.article-1 a {
+	color: #605E5E;	
+}
 
+.article1_steps {
+	text-align: center;
+}
+
+.article1_steps img{
+	height: 250px;
+	width: 200px;
+}
+
+.article-1 h6{
+	border-bottom: .2px solid #605E5E;
+}
 
 @media screen and (max-width:1000px){
 	.instruction iframe {
 		width: 800px;
-
+	}
+	.article1_steps img{
+		height: 350px;
+		width: 400px;
 	}
 }
 
@@ -425,7 +446,7 @@ h4{
 		width: 600px;
 		height: 300px;
 
-	}	
+	}
 }
 
 @media screen and (max-width: 767px){
@@ -439,7 +460,9 @@ h4{
 		margin: auto;
 		float: none;
 	}
-
+	.article1_cxrili img {
+		width: 100%!important;
+	}
 
 }
 
