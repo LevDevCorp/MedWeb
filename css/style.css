@@ -133,7 +133,12 @@ footer {
 }
 
 footer img {
-	max-width: 150px;
+	max-width: 70px;
+}
+
+footer .logo_main {
+	display: table;
+	margin: auto;	
 }
 
 footer a {
@@ -404,6 +409,14 @@ h4{
 	color: #333;
 	font-weight: 800;
 }
+
+.article-goback {
+	width:50px;
+	margin-top: 10px;
+	margin-left: 30px; 
+	position: fixed;
+}
+
 
 .article-1{
 	color: #605E5E;
