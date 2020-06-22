@@ -132,10 +132,6 @@ footer {
 	background-color: rgba(43, 108, 163, 1);
 }
 
-footer img {
-	max-width: 70px;
-}
-
 footer .logo_main {
 	display: table;
 	margin: auto;	
