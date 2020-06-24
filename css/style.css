@@ -137,6 +137,7 @@ footer {
 footer .logo_main {
 	display: table;
 	margin: auto;	
+	height: 100%;
 }
 
 footer a {
