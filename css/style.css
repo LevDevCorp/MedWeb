@@ -23,7 +23,9 @@ header p {
 	height: 100px;
 }
 
-
+.header_col1 p {
+	text-align: center;
+}
 
 .header_col2 {
 	margin-top: 50px;
