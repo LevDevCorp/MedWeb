@@ -23,7 +23,7 @@ header p {
 	height: 100px;
 }
 
-.header_col1 p {
+.header_col1 a {
 	text-align: center;
 }
 
@@ -43,8 +43,8 @@ header p {
 }
 
 
-.header_col3 img{
-	/*width: 350px;*/
+.header_col3 a img{
+	width: 100%;
 	height: 80px;
 }
 
@@ -455,6 +455,9 @@ h4{
 		height: 350px;
 		width: 400px;
 	}
+	.header_col1 img{
+		width: 270px;
+	}
 }
 
 
@@ -466,8 +469,15 @@ h4{
 	.instruction iframe {
 		width: 600px;
 		height: 300px;
-
 	}
+	.header_col1 img{
+		width: 230px;
+	}
+	footer .logo_main {
+		margin: auto;	
+		height: 70px;
+	}
+
 }
 
 @media screen and (max-width: 767px){
@@ -484,7 +494,11 @@ h4{
 	.article1_cxrili img {
 		width: 100%!important;
 	}
-
+	.header_col1 img{
+		width: 200px;
+		margin-top: 50px;
+		height: 60px;
+	}
 }
 
 
@@ -503,6 +517,27 @@ h4{
 		width: 500px;
 		height: 250px;
 	}
+	.header_col1 img{
+		width: 150px;
+		margin-top: 50px;
+		height: 60px;
+	}
+	footer .logo_main {
+		margin: auto;	
+		height: 50px;
+	}
+	footer a,p{
+		font-size: 13px;
+	}
 }
 
-
+@media screen and (max-width: 500px) {
+	.header_col1 img{
+		width: 130px;
+		margin-top: 50px;
+		height: 60px;
+	}
+	.language_change{
+		top: 50px;
+	}
+}
