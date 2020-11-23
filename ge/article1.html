@@ -15,9 +15,15 @@
 <body>
 <header class="container ge">
 
-	<div class="row">
+	<div style='position: relative;' class="row navbarContainer">
+			<div class="language_change">
+                <select class='select' id='languageChange' onchange="location = this.value;">
+	                <option value="../article1.html" ><img src='images/georgia.svg'>ENG</option>
+	                <option value="article1.html" selected >GEO</option>
+	                <option value="../ru/article1.html" >RUS</option>
+            	</select>
+            </div>
 		<div class="header_col1 col-4">
-		<a class="language_change" href="../article1.html">Eng</a>
 			<a href="#">
 				<img src="../images/logo.svg"  alt="oraquick">
 				<p>ოფიციალური დისტრიბუტორი საქართველოში</p>				
@@ -25,25 +31,24 @@
 		</div>	
 		<div class="header_col2 col-3">
 			<img src="../images/header_logo2.webp"  alt="oraquick">
-			<p>Rapid tests with FDA certificate</p>
+			<p>სწრაფი ტესტი FDA სერთიფიკატით</p>
 		</div>	
 		<div class="header_col3 col-5">
-			<div class="contact row">
-				<div class="col-5" >
-					<img src="../images/header_call.svg" alt="call">
-					<p>+995-599–98–11–88</p>					
-				</div>
-				<div class="col-7" >
-					<img src="../images/header_mail.svg"  alt="mail">
-					<p>e.shapovalov@unident.net</p>					
-				</div>
-			</div>
 			<a href="#">
 				<img src="../images/header_map.webp" class="mt-5"  alt="oraquick">
 				<p>სად ვიყიდო</p>
 			</a>
 		</div>	
-
+		<div class="contact row">
+			<div class="col-6" >
+				<img src="../images/header_call.svg" alt="call">
+				<p>+995-599–98–11–88</p>					
+			</div>
+			<div class="col-6" >
+				<img src="../images/header_mail.svg"  alt="mail">
+				<p>e.shapovalov@unident.net</p>					
+			</div>
+		</div>
 	</div>
 
 <nav class="navbar navbar-expand-lg navbar-light">

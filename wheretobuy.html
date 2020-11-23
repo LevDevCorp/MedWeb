@@ -15,9 +15,15 @@
 <body>
 <header class="container">
 
-	<div class="row">
+	<div style='position: relative;' class="row navbarContainer">
+			<div class="language_change">
+                <select class='select' id='languageChange' onchange="location = this.value;">
+	                <option value="wheretobuy.html" selected><img src='images/georgia.svg'>ENG</option>
+	                <option value="ge/wheretobuy.html"  >GEO</option>
+	                <option value="ru/wheretobuy.html" >RUS</option>
+            	</select>
+            </div>
 		<div class="header_col1 col-4">
-		<a class="language_change" href="ge/wheretobuy.html">Geo</a>
 			<a href="#">
 				<img src="images/logo.svg"  alt="oraquick">
 				<p>Official distributor in Georgia</p>				
@@ -28,22 +34,21 @@
 			<p>Rapid tests with FDA certificate</p>
 		</div>	
 		<div class="header_col3 col-5">
-			<div class="contact row">
-				<div class="col-5" >
-					<img src="images/header_call.svg" alt="call">
-					<p>+995-599–98–11–88</p>					
-				</div>
-				<div class="col-7" >
-					<img src="images/header_mail.svg"  alt="mail">
-					<p>e.shapovalov@unident.net</p>					
-				</div>
-			</div>
 			<a href="#">
 				<img src="images/header_map.webp" class="mt-5"  alt="oraquick">
 				<p>Where can i buy</p>
 			</a>
 		</div>	
-
+		<div class="contact row">
+			<div class="col-6" >
+				<img src="images/header_call.svg" alt="call">
+				<p>+995-599–98–11–88</p>					
+			</div>
+			<div class="col-6" >
+				<img src="images/header_mail.svg"  alt="mail">
+				<p>e.shapovalov@unident.net</p>					
+			</div>
+		</div>
 	</div>
 
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -80,55 +85,12 @@
 </header>
 
 <div class="container mt-5 products">
-	<h4>Buy Online</h4>
-	<div class="row mt-5 section1">
-		<div class="col-lg-3 col-md-3">
-			<img class="text-right" src="images/" alt="buyonline">
-		</div>
-		<div class="col-lg-6 col-md-6">You can purchase OraQuick rapid tests for HIV and hepatitis C in the online store of the official representative of products in Russia, Unident. Delivery to all regions of Russia is possible.
-		</div>
-		<div class="col-lg-3 col-md-3">
-			<div class="pointer pointergreen"><a href="#">Buy Online</a></div>
-		</div>
-	</div>
 
-	<h4>Buy In Pharmacies</h4>	
-	<div class="section2">
-		<div class="row mt-5 ">
-			<div class="col-lg-3 col-md-3"></div>
-			<div class="col-lg-6 col-md-6 products_header">You can purchase OraQuick rapid tests for HIV and hepatitis C in the online store of the official representative of products in Russia, Unident. Delivery to all regions of Russia is possible.
-			</div>
-			<div class="col-lg-3 col-md-3"></div>		
-		</div>
-		<div class="row mt-5 ">
-			<div class="col-lg-3 col-md-3">
-				<img class="text-right" src="images/rosapteka.png">
-			</div>
-			<div class="col-lg-6 col-md-6">You can purchase OraQuick rapid tests for HIV and hepatitis C in the online store of the official representative of products in Russia, Unident. Delivery to all regions of Russia is possible.
-			</div>
-			<div class="col-lg-3 col-md-3">
-				<div class="pointer pointerblue"><a href="#">Choose Pharmacies</a></div>
-			</div>		
-		</div>
-		<div class="row mt-5">
-			<div class="col-lg-3 col-md-3">
-				<img class="text-right" src="images/apteka.png">
-			</div>
-			<div class="col-lg-6 col-md-6">You can purchase OraQuick rapid tests for HIV and hepatitis C in the online store of the official representative of products in Russia, Unident. Delivery to all regions of Russia is possible.
-			</div>
-			<div class="col-lg-3 col-md-3">
-				<div class="pointer pointerblue"><a href="#">Choose Pharmacies</a></div>
-			</div>		
-		</div>
-		
-	</div>
 	<h4>Contact Specialist</h4>
 	<div class="section3">
 
 		<div class="row mt-5">
-			<div class="col-3">
-			</div>
-			<div class="col-lg-6 col-md-6">
+			<div class="col-lg-9 col-md-9">
 				<p>If you do not know where to buy a test in your area, want to purchase products in bulk or have other questions about express tests, call <span style="text-decoration: underline;">8-800-555-10-75</span> (the<span class="callisfree"> call is free</span>  ).</p>
 	 			<p>You can also contact a specialist in Moscow by phone at <span style="text-decoration: underline;">8 916 440 53 89</span> (note that the call may be charged, according to the tariff of your operator).</p>
 			</div>
@@ -139,15 +101,17 @@
 		
 	</div>
 
-
+<div>
 	<div class="row products_images">
-		<div class="col-8">
+		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 			<img class="products_images_image1" src="images/wheretobuy_image.webp">
 		</div>
-		<div class="col-4">
-			<img src="images/wheretobuy_image2.webp">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+			<img src="images/wheretobuy_image2.png">
 		</div>
-	</div>
+	</div>	
+</div>
+
 </div>
 
 
@@ -156,10 +120,10 @@
 
 <footer class="container mt-5">
 	<div class="row mt-3">
-		<div class="col-7">
+		<div class="col-6">
 			<a href="#"><img src="images/facebooklogo.svg">www.OraQuick.com.ru © 2020</a>
 		</div>
-		<div class="col-2 text-right">
+		<div class="col-3 text-right">
 			<p>Official distributor in Georgia</p>
 		</div>
 		<div class="col-3">

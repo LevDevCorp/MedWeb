@@ -11,6 +11,11 @@ body {
 
 .language_change {
 	position: absolute;
+	z-index: 111;
+	left:2%;
+}
+.language_change select{
+	border:none;
 }
 
 header p {
@@ -191,7 +196,9 @@ h4{
 }
 
 
-
+.products_images img{
+	width: 100%;
+}
 
 .products_header {
 	font-weight: 800;
@@ -227,7 +234,9 @@ h4{
 		left:40%;
 }
 
-
+.selectpicker{
+	width: 10px;
+}
 
     .pointer {
       width: 200px;
@@ -299,13 +308,13 @@ h4{
 	font-size: 18px;
 }
 
-
-.products_images_image1 {
-	position: absolute;
-	bottom: 0;
+/*faq*/
+.accordion {
+	padding: 15px;
 }
-
-
+.accordion .card-header{
+	background: transparent;
+}
 
 /* instruction-textarea */
 .inh4{
@@ -381,6 +390,10 @@ h4{
 
 .contacts a img {
 	border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.contacts-imgcontainer img{
+	width: 100%;
 }
 
 .contacts a p {
@@ -476,6 +489,9 @@ h4{
 	footer .logo_main {
 		margin: auto;	
 		height: 70px;
+	}	
+	.carousel img{
+		height: 300px;
 	}
 
 }
@@ -529,6 +545,12 @@ h4{
 	footer a,p{
 		font-size: 13px;
 	}
+	.section3 {
+		text-align: center;
+	}
+	.section3 .pointer {
+		display: none
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -539,5 +561,40 @@ h4{
 	}
 	.language_change{
 		top: 50px;
+	}
+	.contact img {
+		display: none;
+	}
+	 .header_col2, .header_col3, .header_col1 p{
+		display: none;
+	}
+	.header_col1{
+		margin: 15px;
+		justify-content: center;
+    	display: flex;
+	}
+	.navbarContainer{
+		justify-content: center;
+	}	
+	.contact {
+		width: 350px;
+	}
+	.contact div:first-child{
+		text-align: right;
+	}
+	.contact p{	
+		font-size: 11px;
+	}
+	footer a, p {
+    	font-size: 11px;
+	}
+	footer div:first-child div:nth-child(2){
+    	text-align: center!important;
+	}
+	footer div:nth-child(3) img{
+    	height: 40px;
+	}
+	footer div:first-child div:first-child img{
+    	display: none;
 	}
 }

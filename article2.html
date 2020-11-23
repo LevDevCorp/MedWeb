@@ -15,9 +15,16 @@
 <body>
 <header class="container">
 
-	<div class="row">
+	<div style='position: relative;' class="row navbarContainer">
+			<div class="language_change">
+                <select class='select' id='languageChange' onchange="location = this.value;">
+	                <option value="article2.html" selected><img src='images/georgia.svg'>ENG</option>
+	                <option value="ge/article2.html"  >GEO</option>
+	                <option value="ru/article2.html" >RUS</option>
+            	</select>
+            </div>
+
 		<div class="header_col1 col-4">
-		<a class="language_change" href="ge/article2.html">Geo</a>			
 			<a href="#">
 				<img src="images/logo.svg"  alt="oraquick">
 				<p>Official distributor in Georgia</p>				
@@ -28,22 +35,21 @@
 			<p>Rapid tests with FDA certificate</p>
 		</div>	
 		<div class="header_col3 col-5">
-			<div class="contact row">
-				<div class="col-5" >
-					<img src="images/header_call.svg" alt="call">
-					<p>+995-599–98–11–88</p>					
-				</div>
-				<div class="col-7" >
-					<img src="images/header_mail.svg"  alt="mail">
-					<p>e.shapovalov@unident.net</p>					
-				</div>
-			</div>
 			<a href="#">
 				<img src="images/header_map.webp" class="mt-5"  alt="oraquick">
 				<p>Where can i buy</p>
 			</a>
 		</div>	
-
+		<div class="contact row">
+			<div class="col-6" >
+				<img src="images/header_call.svg" alt="call">
+				<p>+995-599–98–11–88</p>					
+			</div>
+			<div class="col-6" >
+				<img src="images/header_mail.svg"  alt="mail">
+				<p>e.shapovalov@unident.net</p>					
+			</div>
+		</div>
 	</div>
 
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -202,10 +208,10 @@
 
 <footer class="container mt-5">
 	<div class="row mt-3">
-		<div class="col-7">
+		<div class="col-6">
 			<a href="#"><img src="images/facebooklogo.svg">www.OraQuick.com.ru © 2020</a>
 		</div>
-		<div class="col-2 text-right">
+		<div class="col-3 text-right">
 			<p>Official distributor in Georgia</p>
 		</div>
 		<div class="col-3">
